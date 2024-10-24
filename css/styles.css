@@ -1,0 +1,15 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;;
+    line-height: 24px;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+}
