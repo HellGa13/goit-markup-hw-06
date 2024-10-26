@@ -82,10 +82,36 @@ button {
     overflow: hidden;
 }
 
+.benefits-title {
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.benefits-text {
+    font-weight: 400px;
+    font-size: 16px;
+}
+
 .team {
     background-color: #F4F4FD;
-    text-align: center;
+    text-align: center;  
+}
 
+.team > h2 {
+    font-weight: 700px;
+    font-size: 36px;
+    line-height: 40px;
+    color: #2E2F42;
+}
+
+.team-title {
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.team > p {
+    font-weight: 400px;
+    font-size: 16px;
 }
 
 .portfolio {
@@ -93,12 +119,23 @@ button {
     background-color: #E7E9FC;
 }
 
-.portfolio-title {
-    font-weight: 700;
+.portfolio > h2 {
+    font-weight: 700px;
     font-size: 36px;
-    line-height: 24px;
+    line-height: 40px;
+    color: #2E2F42;
+}
+
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
     text-align: center;
     color: #2E2F42;
+}
+
+.portfolio > p {
+    font-weight: 400px;
+    font-size: 16px;
 }
 
 .footer {
