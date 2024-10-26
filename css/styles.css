@@ -19,8 +19,6 @@ button {
     cursor: pointer;
 }
 
-
-
 .nav-logo {
     color: #4d5ae5;
     font-family: 'Raleway', sans-serif;
@@ -40,16 +38,6 @@ span.studio-nav {
     color: #404BBF;
 }
 
-.link-contact:hover,
-.link-contact:focus {
-    color: #404BBF;
-}
-
-.link-contact {
-    font-style: normal;
-    letter-spacing: 0.02em;
-}
-
 .link {
     font-weight: 500;
     color: #2E2F42;
@@ -58,6 +46,22 @@ span.studio-nav {
 
 .link:hover,
 .link:focus {
+    color: #404BBF;
+}
+
+.adress-contact {
+   font-style: normal; 
+}
+
+.nav-contact {
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.nav-contact:hover,
+.nav-contact:focus {
     color: #404BBF;
 }
 
