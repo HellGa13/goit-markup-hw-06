@@ -53,15 +53,15 @@ span.studio-nav {
    font-style: normal; 
 }
 
-.nav-contact {
+.contact {
     letter-spacing: 0.02em;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
 }
 
-.nav-contact:hover,
-.nav-contact:focus {
+.contact:hover,
+.contact:focus {
     color: #404BBF;
 }
 
