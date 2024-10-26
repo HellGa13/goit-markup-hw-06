@@ -52,7 +52,6 @@ span.studio-nav {
 
 .link {
     font-weight: 500;
-    width: 66px;
     color: #2E2F42;
     letter-spacing: 0.02em;
 }
@@ -86,21 +85,11 @@ span.studio-nav {
 
 .hero > button:hover,
 .hero > button:focus {
-    background-color: #404BBF;
-}
-
-.benefits {
-    position:absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0%;
-    overflow: hidden;
+    background-color: #404bbf;
 }
 
 .benefits-title {
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -109,6 +98,7 @@ span.studio-nav {
 .benefits-text {
     font-weight: 400px;
     font-size: 16px;
+    letter-spacing: 0.02em;
 }
 
 .team {
@@ -131,7 +121,7 @@ span.studio-nav {
 }
 
 .team-title {
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -170,6 +160,7 @@ span.studio-nav {
 .portfolio-parag {
     font-weight: 400px;
     font-size: 16px;
+    letter-spacing: 0.02em;
 }
 
 .footer {
@@ -181,6 +172,7 @@ span.studio-nav {
     font-size: 16px;
     line-height: 1.5;
     color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
 
 .footer-logo {
