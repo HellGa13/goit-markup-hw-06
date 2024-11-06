@@ -42,27 +42,27 @@ button {
     margin: 0 auto;
 }
 
-.page-header {
-    background-color: #FFFFFF;
-}
-
 .page-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     height: 72px;
-}
-
-.menu-iteams {
+    background-color: #FFFFFF;
     display: flex;
+} 
+
+.page-header .menu-iteams {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     gap: 40px;
 }
 
-.menu-iteams .link {
-    display: block;
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav-logo {
+    display: flex;
     color: #4d5ae5;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -81,7 +81,14 @@ span.studio-nav {
     color: #404BBF;
 }
 
-.link {
+.menu-iteams {
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
+}
+
+.menu-iteams .link {
+    display: block;
     font-weight: 500;
     color: #2E2F42;
     letter-spacing: 0.02em;
@@ -92,9 +99,17 @@ span.studio-nav {
     color: #404BBF;
 }
 
-.adress-contact {
-   font-style: normal; 
+.list-contact {
+    display: flex;
+    gap: 40px;
+    margin-left: 332px;
 }
+
+.adress-contact {
+    font-style: normal;
+    display: flex;
+    align-items: center;
+} 
 
 .contact {
     letter-spacing: 0.02em;
@@ -108,15 +123,14 @@ span.studio-nav {
     color: #404BBF;
 }
 
-.hero {
+.hero .container {
     display: flex;
     background-color: #2E2F42;
-    text-align: center;
     height: 600px;
-}
-
-.hero .container {
+    width: auto;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .hero-heading {
@@ -125,7 +139,10 @@ span.studio-nav {
     font-size: 56px;
     line-height: 60px;
     line-height: 1.07;
-    letter-spacing: 0.02em; 
+    letter-spacing: 0.02em;
+    width: 496px; 
+    margin-bottom: 48px;
+    text-align: center;
 }
 
 .hero-button {
@@ -134,6 +151,8 @@ span.studio-nav {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    width: 169px;
+    height: 56px;
 }
 
 .hero > button:hover,
