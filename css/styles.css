@@ -140,6 +140,7 @@ span.studio-nav {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 188px 0;
 }
 
 .hero-heading {
@@ -152,6 +153,7 @@ span.studio-nav {
     width: 496px; 
     margin-bottom: 48px;
     text-align: center;
+    max-width: 496px;
 }
 
 .hero-button {
@@ -162,6 +164,9 @@ span.studio-nav {
     letter-spacing: 0.04em;
     width: 169px;
     height: 56px;
+    min-width: 169px;
+    border: none;
+    border-radius: 4px;
 }
 
 .hero > button:hover,
@@ -181,11 +186,13 @@ span.studio-nav {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 8px;
 }
 
 .benefits .container {
     display: flex;
     height: 344px;
+    padding: 120px 0;
 }
 
 .list-benefits {
@@ -204,7 +211,7 @@ span.studio-nav {
     font-size: 20px;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 72px;
 }
 
 .benefits-text {
@@ -245,10 +252,11 @@ span.studio-nav {
 
 .team-list {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
 }
 
 .team-div {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team-title {
@@ -257,7 +265,7 @@ span.studio-nav {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 8px;
+    margin-bottom: 8px
 }
 
 .team-parag {
@@ -267,7 +275,8 @@ span.studio-nav {
 }
 
 .portfolio .container {
-    padding: 120px 0;
+    padding: 120px 0 120px 0;
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio {
@@ -299,7 +308,7 @@ span.studio-nav {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding: 72px;
+    margin-bottom: 72px;
     text-align: center;
 }
 
@@ -308,7 +317,7 @@ span.studio-nav {
     font-size: 20px;
     color: #2E2F42;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .portfolio-parag {
@@ -331,6 +340,7 @@ span.studio-nav {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     width: 264px;
+    padding: 100px 0;
 }
 
 .footer-logo {
