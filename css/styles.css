@@ -227,7 +227,6 @@ span.studio-nav {
 }
 
 .team .container {
-    padding: 120px 0;
     height: 732px;
 }
 
@@ -237,6 +236,7 @@ span.studio-nav {
     align-items: center;
     background-color: #F4F4FD;
     text-align: center;  
+    padding: 120px 0;
 }
 
 .team-heading {
@@ -247,18 +247,18 @@ span.studio-nav {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-items {
     display: flex;
     gap: 24px;
-    border-radius: 0 0 4px 4px;
 }
 
 .team-list {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-div {
@@ -305,6 +305,7 @@ span.studio-nav {
 
 .portfolio-div {
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio-heading {
