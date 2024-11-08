@@ -280,11 +280,6 @@ span.studio-nav {
     letter-spacing: 0.02em;
 }
 
-.portfolio .container {
-    border: 1px solid #e7e9fc;
-    border-top: none;
-}
-
 .portfolio {
     display: flex;
     background-color: #E7E9FC;
@@ -307,6 +302,7 @@ span.studio-nav {
 .portfolio-div {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-heading {
