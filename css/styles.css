@@ -140,6 +140,9 @@ span.studio-nav {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.hero {
     padding: 188px 0;
 }
 
@@ -186,12 +189,14 @@ span.studio-nav {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    margin-bottom: 8px;
 }
 
 .benefits .container {
     display: flex;
     height: 344px;
+}
+
+.benefits {
     padding: 120px 0;
 }
 
@@ -212,6 +217,7 @@ span.studio-nav {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 .benefits-text {
@@ -275,7 +281,6 @@ span.studio-nav {
 }
 
 .portfolio .container {
-    padding: 120px 0 120px 0;
     border: 1px solid #e7e9fc;
 }
 
@@ -284,6 +289,8 @@ span.studio-nav {
     background-color: #E7E9FC;
     justify-content: space-between;
     align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-items {
@@ -330,7 +337,7 @@ span.studio-nav {
     display: flex;
     background-color: #2E2F42;
     height: 321px;
-    padding: 100px 1020px 100px 156px;
+    padding: 100px 0;
 }
 
 .footer-text {
@@ -340,7 +347,6 @@ span.studio-nav {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     width: 264px;
-    padding: 100px 0;
 }
 
 .footer-logo {
