@@ -116,7 +116,6 @@ span.studio-nav {
 .list-contact {
     display: flex;
     gap: 40px;
-    margin-left: 332px;
 }
 
 .contact {
@@ -134,9 +133,6 @@ span.studio-nav {
 
 .hero .container {
     display: flex;
-    background-color: #2E2F42;
-    height: 600px;
-    width: auto;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -144,6 +140,7 @@ span.studio-nav {
 
 .hero {
     padding: 188px 0;
+    background-color: #2E2F42;
 }
 
 .hero-heading {
@@ -193,7 +190,6 @@ span.studio-nav {
 
 .benefits .container {
     display: flex;
-    height: 344px;
 }
 
 .benefits {
@@ -224,10 +220,6 @@ span.studio-nav {
     font-weight: 400px;
     font-size: 16px;
     letter-spacing: 0.02em;
-}
-
-.team .container {
-    height: 732px;
 }
 
 .team {
@@ -282,7 +274,7 @@ span.studio-nav {
 
 .portfolio {
     display: flex;
-    background-color: #E7E9FC;
+    background-color: #FFFFFF;
     justify-content: space-between;
     align-items: center;
     padding-top: 120px;
@@ -334,7 +326,6 @@ span.studio-nav {
 .footer {
     display: flex;
     background-color: #2E2F42;
-    height: 321px;
     padding: 100px 0;
 }
 
