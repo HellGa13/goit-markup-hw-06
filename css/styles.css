@@ -91,6 +91,17 @@ span.studio-nav {
     display: flex;
     align-items: center;
     gap: 40px;
+    position: relative;
+}
+
+.menu-iteams::after {
+    position: absolute;
+    content: '';
+    border-radius: 2px;
+    width: 48px;
+    height: 4px;
+    bottom: -1px;
+    background-color: #404bbf;
 }
 
 .menu-iteams .link {
@@ -103,6 +114,7 @@ span.studio-nav {
 
 .link:hover,
 .link:focus {
+    position: relative;
     color: #404BBF;
 }
 
@@ -150,6 +162,7 @@ span.studio-nav {
         rgba(46, 47, 66, 0.7)
         ),
     url(../images/people-office.jpg);
+    max-width: 1440px;
 }
 
 .hero-heading {
@@ -176,6 +189,7 @@ span.studio-nav {
     min-width: 169px;
     border: none;
     border-radius: 4px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero > button:hover,
@@ -215,6 +229,14 @@ span.studio-nav {
 .benefits-items {
     width: calc((100% - 72px) / 4);
 }
+
+.benefits-icon-div {
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+    padding: 24px 100px;
+    margin-bottom: 8px;
+} 
 
 .benefits-title {
     font-weight: 500;
@@ -325,6 +347,8 @@ span.studio-nav {
 
 .portfolio-list {
     width: calc((100% - 48px) / 3);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-div {
@@ -383,8 +407,17 @@ span.studio-nav {
 
 .footer {
     display: flex;
-    background-color: #2E2F42;
+    background-color: #2E2F42; 
+}
+
+.footer .container{
+    display: flex;
     padding: 100px 0;
+    align-items: baseline;
+}
+
+.div-footer {
+    margin-right: 120px;
 }
 
 .footer-text {
@@ -415,4 +448,44 @@ span.studio-nav {
 
 span.studio-footer {
     color: #f4f4fd;
+}
+
+.icons-heading {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding-bottom: 32px;
+    fill: #f4f4fd;
+}
+
+.footer-link {
+    display: flex;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    background-color: #31D0AA;
 }
