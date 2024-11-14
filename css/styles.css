@@ -103,15 +103,12 @@ span.studio-nav {
     color: #2E2F42;
     letter-spacing: 0.02em;
     padding: 24px 0;
-}
-
-.link:hover,
-.link:focus {
     position: relative;
-    color: #404BBF;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link::after {
+.first::after {
     position: absolute;
     content: '';
     border-radius: 2px;
@@ -120,8 +117,13 @@ span.studio-nav {
     bottom: -1px;
     left: 0;
     background-color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.menu-iteams .link:hover,
+.menu-iteams .link:focus {
+    color: #404BBF;
+}
+
 
 .adress-contact {
     display: flex;
@@ -133,6 +135,7 @@ span.studio-nav {
 .list-contact {
     display: flex;
     gap: 40px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact {
@@ -321,6 +324,7 @@ span.studio-nav {
     gap: 24px;
     padding-bottom: 32px;
     fill: #f4f4fd;
+    margin-top: 8px;
 }
 
 .team-icon-item {
