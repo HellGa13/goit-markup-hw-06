@@ -434,11 +434,11 @@ span.studio-nav {
 .footer {
     display: flex;
     background-color: #2E2F42; 
+    padding: 100px 0;
 }
 
 .footer .container{
     display: flex;
-    padding: 100px 0;
     align-items: baseline;
 }
 
@@ -497,7 +497,6 @@ span.studio-footer {
     align-items: center;
     justify-content: center;
     gap: 16px;
-    padding-bottom: 32px;
 }
 
 .footer-items-icons{
