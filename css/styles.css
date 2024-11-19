@@ -523,3 +523,133 @@ span.studio-footer {
 .footer-link:focus {
     background-color: #31D0AA;
 }
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: hover focus 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-overlay.is-open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal {
+    background-color: #FCFCFC;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    max-width: 408px;
+    max-height: 584px;
+    overflow-y: auto;
+}
+
+.recall-form {
+    gap: 8px;
+    margin: 16px 11px;
+}
+
+.div-btn-close {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 37px;
+}
+
+.close-btn {
+    border-radius: 4px;
+    border-radius: 50%;
+    background-color: #E7E9FC;
+    width: 24px;
+    height: 24px;
+    margin-top: 28px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-svg {
+    fill:#2E2F42;
+}
+
+.recall-par {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    margin-top: 24px;
+    color: #2E2F42;
+}
+
+.recall-lbl {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+textarea {
+    resize: none;
+}
+
+.accept-lbl {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    margin-top: 16px;
+    margin-left: 11px;
+}
+
+.form-accept {
+    line-height: 133%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4D5AE5;
+}
+
+.recall-btn {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    width: 169px;
+    height: 56px;
+    min-width: 169px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-top: 24px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.div-recall-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recall-btn:hover
+.recall-btn:focus {
+    background-color: #404bbf;;
+}

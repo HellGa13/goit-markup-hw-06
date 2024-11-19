@@ -52,7 +52,6 @@
           <button class="hero-button" type="button">Order Service</button>
         </div>
       </section>
-
       <section class="benefits">
         <div class="container">
           <h2 class="benefits-header">Benefits</h2>
@@ -576,6 +575,59 @@
               </a>
             </li>
           </ul>
+        </div>
+      </div>
+
+      <div class="modal-overlay is-open">
+        <div class="modal">
+          <div class="div-btn-close">
+            <button class="close-btn">
+              <svg class="close-svg" width="8" height="8" fill="none">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+          </div>
+          <p class="recall-par">
+            Leave your contacts and we will call you back
+          </p>
+
+          <form class="recall-form" name="recall-form" autocomplete="off">
+            <label class="recall-lbl">
+              Name
+              <input
+                class="recall-input"
+                type="text"
+                name="username"
+                autofocus
+              />
+              <svg class="close-svg" width="18" height="18" fill="none">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </label>
+
+            <label class="recall-lbl">
+              Phone
+              <input class="recall-input" type="tel" name="phone" />
+            </label>
+
+            <label class="recall-lbl">
+              Email
+              <input class="recall-input" type="email" name="email_address" />
+            </label>
+            <label class="recall-lbl">
+              Comment
+              <textarea name="comment" rows="5" placeholder="Text input">
+              </textarea>
+            </label>
+          </form>
+          <label class="accept-lbl">
+            <input type="checkbox" name="privacy" value="accept" />
+            I accept the terms and conditions of the
+            <span class="form-accept">Privacy Policy</span>
+          </label>
+          <div class="div-recall-btn">
+            <button class="recall-btn" type="submit">Send</button>
+          </div>
         </div>
       </div>
     </footer>
