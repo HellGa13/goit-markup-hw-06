@@ -588,7 +588,6 @@
                 type="email"
                 name="email_adress"
                 placeholder="E-mail"
-                autofocus
               />
             </label>
             <button class="subscr-btn" type="submit">
@@ -613,42 +612,57 @@
           </p>
 
           <form class="recall-form" name="recall-form" autocomplete="off">
-            <label for="user-name" class="recall-lbl">
-              Name
-              <div class="div-input-recall">
-              <input
-                id="user-name"
-                class="recall-input"
-                type="text"
-                name="username"
-                autofocus
-              />
-              <svg class="recall-svg" width="18" height="24" fill="none">
-                <use href="./images/icons.svg#icon-person"></use>
-              </svg>
-            </div>
+            <div class="div-lbl-recall">
+              <label for="user-name" class="recall-lbl">
+                Name
+                <div class="div-input-recall">
+                  <input
+                    id="user-name"
+                    class="recall-input"
+                    type="text"
+                    name="username"
+                    autofocus
+                  />
+                  <svg class="recall-svg" width="18" height="24" fill="none">
+                    <use href="./images/icons.svg#icon-person"></use>
+                  </svg>
+                </div>
               </label>
-            </label>
-
-            <label for="phone-number" class="recall-lbl">
-              Phone
-              <div class="div-input-recall">
-              <input id="phone-number" class="recall-input" type="tel" name="phone" />
-              <svg class="recall-svg" width="18" height="24" fill="none">
-                <use href="./images/icons.svg#icon-phone"></use>
-              </svg>
             </div>
-            </label>
 
-            <label for="email-adress" class="recall-lbl">
-              Email
-              <div class="div-input-recall">
-              <input id="email-adress" class="recall-input" type="email" name="email_address" />
-              <svg class="recall-svg" width="18" height="24" fill="none">
-                <use href="./images/icons.svg#icon-email"></use>
-              </svg>
-              </div>
-            </label>
+            <div class="div-lbl-recall">
+              <label for="phone-number" class="recall-lbl">
+                Phone
+                <div class="div-input-recall">
+                  <input
+                    id="phone-number"
+                    class="recall-input"
+                    type="tel"
+                    name="phone"
+                  />
+                  <svg class="recall-svg" width="18" height="24" fill="none">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                  </svg>
+                </div>
+              </label>
+            </div>
+
+            <div class="div-lbl-recall">
+              <label for="email-adress" class="recall-lbl">
+                Email
+                <div class="div-input-recall">
+                  <input
+                    id="email-adress"
+                    class="recall-input"
+                    type="email"
+                    name="email_address"
+                  />
+                  <svg class="recall-svg" width="18" height="24" fill="none">
+                    <use href="./images/icons.svg#icon-email"></use>
+                  </svg>
+                </div>
+              </label>
+            </div>
             <label for="user-comment" class="recall-lbl">
               Comment
               <textarea
@@ -661,26 +675,26 @@
               </textarea>
             </label>
           </form>
-          
-            <div class="div-accept">
-            <input 
-            class="accept-input visual-hidden"
-            id="user-privacy"
-            type="checkbox" 
-            name="user-privacy" 
-            value="true" />
-            <label for="user-privacy" class="accept-lbl">
-            I accept the terms and conditions of the
-            <a class="privacy-policy">Privacy Policy</a>
+
+          <div class="div-accept">
+            <input
+              class="accept-input visual-hidden"
+              id="user-privacy"
+              type="checkbox"
+              name="user-privacy"
+              value="true"
+            />
             <span class="span-accept">
               <svg class="accept-svg" width="10" height="8" fill="none">
                 <use href="./images/icons.svg#icon-vector"></use>
               </svg>
             </span>
-            
+            <label for="user-privacy" class="accept-lbl">
+              I accept the terms and conditions of the
+              <a class="privacy-policy">Privacy Policy</a>
             </label>
           </div>
-          
+
           <div class="div-recall-btn">
             <button class="recall-btn" type="submit">Send</button>
           </div>
