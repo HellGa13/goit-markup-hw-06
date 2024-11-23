@@ -208,7 +208,7 @@ span.studio-nav {
     background-color: #404bbf;
 }
 
-.visual-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -592,6 +592,7 @@ span.studio-footer {
 .subcr-btn:hover, 
 .subscr-btn:focus {
     background-color: #404bbf;
+    fill: #FFFFFF;
 }
 
 .subscr-svg {
@@ -666,10 +667,13 @@ span.studio-footer {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-svg:hover,
-.close-svg:focus {
+.close-btn:focus + .close-svg {
     fill: #ffffff;
 }
+
+.close-btn:hover + .close-svg {
+    fill: #ffffff;
+} 
 
 .recall-par {
     text-align: center;
@@ -764,7 +768,7 @@ span.studio-footer {
     margin-bottom: 24px;
 }
 
-.accept-input[type:"checkbox"]:checked + .span-accept {
+.accept-input[type="checkbox"]:checked + .span-accept {
     border: none;
     background-color: #404BBF;
     fill: #F4F4FD;
@@ -809,17 +813,13 @@ span.studio-footer {
     border: none;
     border-radius: 4px;
     margin-bottom: 20px;
+    margin-left: 106px;
+    margin-right: 133px;
     margin-top: 24px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.div-recall-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.recall-btn:hover
+.recall-btn:hover,
 .recall-btn:focus {
     background-color: #404bbf;
 }
