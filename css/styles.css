@@ -589,8 +589,8 @@ span.studio-footer {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subcr-btn:hover, 
-.subscr-btn:focus {
+.subcr-btn:hover .subscr-svg, 
+.subscr-btn:focus .subscr-svg {
     background-color: #404bbf;
     fill: #FFFFFF;
 }
@@ -768,7 +768,7 @@ span.studio-footer {
     margin-bottom: 24px;
 }
 
-.accept-input[type="checkbox"]:checked + .span-accept {
+.accept-input:checked + .user-privacy > .span-accept {
     border: none;
     background-color: #404BBF;
     fill: #F4F4FD;
