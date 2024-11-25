@@ -585,8 +585,12 @@ span.studio-footer {
     line-height: 1.5;
     letter-spacing: 0.04em;
     border: none;
-    margin-left: 24px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscr-btn:hover,
+.subscr-btn:focus {
+    background-color: #404BBF;
 }
 
 .subcr-btn:hover .subscr-svg, 
@@ -682,13 +686,11 @@ span.studio-footer {
     line-height: 150%;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
-    margin-top: 24px;
     color: #2E2F42;
 }
 
 .recall-form {
     gap: 8px;
-    margin: 16px 11px;
 }
 
 .recall-lbl {
@@ -813,9 +815,9 @@ span.studio-footer {
     border: none;
     border-radius: 4px;
     margin-bottom: 20px;
-    margin-left: 106px;
-    margin-right: 133px;
     margin-top: 24px;
+    margin-left: 119px;
+    margin-right: 120px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
