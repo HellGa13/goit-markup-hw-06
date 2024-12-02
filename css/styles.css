@@ -12,7 +12,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    ;
     line-height: 24px;
 }
 
@@ -282,13 +281,14 @@ span.studio-nav {
     pointer-events: auto;
 }
 
-.mobile-menu-container {
+.container .mobile-menu-container {
     position: relative;
     padding-top: 72px;
     padding-bottom: 40px;
     background-color: #FCFCFC;
 
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
     height: 100%;
 }
@@ -337,7 +337,7 @@ span.studio-nav {
     font-size: 36px;
     color: #2E2F42;
     letter-spacing: 0.02em;
-    padding: 25px 0;
+    margin: 50px 0;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -360,6 +360,8 @@ span.studio-nav {
 
 .mobile-contact {
     display: block;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #434455;
@@ -530,6 +532,7 @@ span.studio-nav {
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
+        gap: 72px 24px;
     }
 
     .benefits-items {
@@ -562,6 +565,7 @@ span.studio-nav {
 .benefits-title {
     font-weight: 700;
     font-size: 36px;
+    line-height: 111%;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
@@ -644,11 +648,13 @@ span.studio-nav {
 
     .team-list {
         width: calc((100% - 64px) / 2);
+        width: auto;
     }
 }
 
 @media screen and (min-width: 1158px) {
     .team-items {
+        width: 1158px;
         gap: 24px;
     }
 
@@ -844,10 +850,15 @@ span.studio-nav {
 }
 
 @media screen and (min-width: 768px) {
+    .footer {
+        padding: 96px 0;
+    }
+
     .div-footer {
         margin-right: 106px;
     }
 }
+
 
 @media screen and (min-width: 1158px) {
     .footer {
@@ -873,6 +884,7 @@ span.studio-nav {
     font-weight: 700;
     line-height: 1.17;
     margin-bottom: 16px;
+    margin-left: 86px;
     display: inline-block;
 }
 
@@ -905,6 +917,10 @@ span.studio-footer {
 @media screen and (min-width: 768px) {
     .footer-icons {
         align-items: flex-start;
+    }
+
+    .footer-logo {
+        margin-left: 0;
     }
 }
 
