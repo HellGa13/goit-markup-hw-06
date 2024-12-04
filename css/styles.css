@@ -886,12 +886,15 @@ span.studio-nav {
 }
 
 @media screen and (min-width: 768px) {
-    .footer {
-        padding: 96px 0;
-    }
 
-    .div-footer {
-        margin-right: 106px;
+    .footer .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px;
+        column-gap: 24px;
+        padding-left: 108px;
+        align-items: baseline;
+        justify-content: flex-start;
     }
 }
 
@@ -902,12 +905,13 @@ span.studio-nav {
     }
     
     .footer .container {
-        flex-direction: row;
-        align-items: baseline;
+        flex-wrap: nowrap;
+        gap: 0;
+        margin-left: 0;
     }
 
     .div-footer {
-        margin-right: 120px;
+        margin-right: 156px;
     }
 }
 
@@ -953,10 +957,27 @@ span.studio-footer {
 @media screen and (min-width: 768px) {
     .footer-icons {
         align-items: flex-start;
+        margin-right: 0px;
+        padding: 0;
     }
 
     .footer-logo {
         margin-left: 0;
+    }
+
+    .footer-text {
+        max-width: 264px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+
+    .footer-icons {
+        margin-right: 80px;
+    }
+
+    .footer-text {
+        min-width: 264px;
     }
 }
 
@@ -967,6 +988,7 @@ span.studio-footer {
     line-height: 150%;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    margin-top: 0;
 }
 
 .footer-list {
@@ -1011,8 +1033,13 @@ span.studio-footer {
 @media screen and (min-width: 768px) {
     .div-subscr {
         align-items: flex-start;
-        margin-left: 80px;
      }
+}
+
+@media screen and (min-width: 1158px) {
+    .div-subscr {
+        margin-left: 80px;
+    }
 }
 
 .subscr-par {
@@ -1034,6 +1061,7 @@ span.studio-footer {
 @media screen and (min-width: 768px) {
     .subscr-form {
         flex-direction: row;
+        align-items: flex-end;
     }
 }
 
