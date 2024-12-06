@@ -354,7 +354,7 @@ span.studio-nav {
 
 .mobile-list-contact {
     display: flex;
-    gap: 12px;
+    gap: 24px;
     flex-direction: column;
 }
 
@@ -923,8 +923,8 @@ span.studio-nav {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    margin-bottom: 16px;
-    margin-left: 86px;
+    padding-bottom: 16px;
+    padding-left: 86px;
     display: inline-block;
 }
 
@@ -957,12 +957,12 @@ span.studio-footer {
 @media screen and (min-width: 768px) {
     .footer-icons {
         align-items: flex-start;
-        margin-right: 0px;
+        margin-right: 0;
         padding: 0;
     }
 
     .footer-logo {
-        margin-left: 0;
+        padding-left: 0;
     }
 
     .footer-text {
@@ -973,7 +973,6 @@ span.studio-footer {
 @media screen and (min-width: 1158px) {
 
     .footer-icons {
-        margin-right: 80px;
         margin-bottom: 0;
     }
 
@@ -988,7 +987,7 @@ span.studio-footer {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    margin-bottom: 16px;
+    padding-bottom: 16px;
     margin-top: 0;
 }
 
